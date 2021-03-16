@@ -6,10 +6,9 @@ import { ProductItemComponent } from './product-item/product-item.component';
 import { ProductListComponent } from './product-list/product-list.component';
 
 import { BackendService } from './backend.service';
-import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductItemComponent, ProductListComponent, PanelComponent],
+  declarations: [AppComponent, ProductItemComponent, ProductListComponent],
   imports: [BrowserModule],
   providers: [BackendService],
   bootstrap: [AppComponent],
